@@ -7,8 +7,22 @@ export default function Home() {
         <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
           MedAce AI
         </h1>
+        <div className="flex items-center gap-6">
+  <a href="/" className="hover:text-cyan-400">
+    Home
+  </a>
 
-        <div className="space-x-4">
+  <a href="/mbbs" className="hover:text-cyan-400">
+    MBBS
+  </a>
+
+  <a href="#" className="hover:text-cyan-400">
+    NEET PG
+  </a>
+
+  <a href="#" className="hover:text-cyan-400">
+    Books
+  </a>
           <button className="px-4 py-2 border border-white/20 rounded-lg hover:bg-white/10 transition">
             Login
           </button>
@@ -18,7 +32,6 @@ export default function Home() {
           </button>
         </div>
       </nav>
-
       {/* Hero Section */}
       <section className="relative min-h-[85vh] flex items-center overflow-hidden">
 
@@ -70,7 +83,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-6">
 
           <div className="bg-slate-900/70 backdrop-blur-xl border border-white/10 rounded-3xl p-8 text-center">
-            <h2 className="text-5xl font-bold text-blue-400">10k+</h2>
+            <h2 className="text-5xl font-bold text-blue-400">50K+</h2>
             <p className="text-gray-300 mt-2">Students</p>
           </div>
 
